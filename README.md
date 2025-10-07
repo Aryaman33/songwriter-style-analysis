@@ -1,2 +1,3 @@
 # songwriter-style-analysis
-NLP-based analysis of songwriter stylistic fingerprints in song lyrics. Domain Applications project investigating authorship attribution patterns in the music industry using text mining and machine learning.
+Domain Applications Project - M.Sc. Data Analytics
+Analyzing songwriter and producer "fingerprints" through computational stylometry and natural language processing. This project investigates whether distinctive writing patterns can be identified across different performing artists when songs are written by the same songwriter or produced by the same producer.
