@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+.Python
+*.ipynb_checkpoints
+
+# Virtual Environment
+venv/
+env/
+
+# API Keys (IMPORTANT!)
+config.py
+*_token.txt
+.env
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Data files (if large)
+data/*.csv
+data/*.json
+*.csv
+*.json
