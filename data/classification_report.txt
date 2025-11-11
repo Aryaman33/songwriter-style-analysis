@@ -2,13 +2,11 @@ Classification Report: Logistic Regression
 ============================================================
                precision    recall  f1-score   support
 
-     Dr. Luke      0.500     0.364     0.421        11
-Jack Antonoff      0.857     0.800     0.828        15
-   Max Martin      0.250     0.250     0.250        12
-  Ryan Tedder      0.364     0.571     0.444         7
-   Sia Furler      0.500     0.250     0.333         4
-     Stargate      0.143     0.200     0.167         5
+     Dr. Luke      0.650     0.591     0.619        22
+Jack Antonoff      0.526     0.500     0.513        20
+   Max Martin      0.524     0.500     0.512        22
+  Ryan Tedder      0.588     0.769     0.667        13
 
-     accuracy                          0.463        54
-    macro avg      0.436     0.406     0.407        54
- weighted avg      0.493     0.463     0.469        54
+     accuracy                          0.571        77
+    macro avg      0.572     0.590     0.578        77
+ weighted avg      0.571     0.571     0.569        77
