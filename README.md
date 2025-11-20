@@ -25,7 +25,7 @@
 
 ## Overview
 
-This project applies **Natural Language Processing (NLP)** and **Machine Learning** techniques to identify distinctive writing patterns of top music industry songwriters. By analyzing lyrics across multiple performing artists, the system can predict the songwriter behind a song with **57% accuracy** - significantly better than random chance (25% for 4 classes).
+This project applies **Natural Language Processing (NLP)** and **Machine Learning** techniques to identify distinctive writing patterns of top music industry songwriters. By analyzing lyrics across multiple performing artists, the system can predict the songwriter behind a song with **57% accuracy (43% error rate)** - significantly better than random chance (25% accuracy baseline, 75% error rate).
 
 **Domain Applications Project - M.Sc. Data Analytics**
 
@@ -160,7 +160,7 @@ Each songwriter exhibits distinct patterns:
 **Best Model**: Logistic Regression
 
 ```
-Overall Accuracy: 57.1%
+Overall Accuracy: 57.1% (Error Rate: 42.9%)
 Macro F1-Score:   0.578
 Weighted F1:      0.569
 
@@ -169,10 +169,14 @@ Per-Class Performance:
   • Jack Antonoff:  53% precision, 50% recall
   • Max Martin:     52% precision, 50% recall
   • Ryan Tedder:    59% precision, 77% recall (best)
+
+Confusion Analysis:
+  • Dr. Luke ↔ Max Martin: 18% of Dr. Luke songs confused as Max Martin
+  • Most distinctive: Ryan Tedder (77% recall, highest)
 ```
 
-**Baseline**: Random guessing would achieve 25% accuracy (4 classes)  
-**Improvement**: 2.3x better than random
+**Baseline**: Random guessing would achieve 25% accuracy / 75% error rate (4 classes)  
+**Improvement**: 2.3x better accuracy, 1.7x lower error rate than random
 
 ---
 
